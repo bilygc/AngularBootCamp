@@ -1,0 +1,10 @@
+<h3>NgClass</h3>
+<button (click)="setCurrentClasses()">Toogle active</button><br/>
+<span [ngClass]="active ? 'redText' : ''">Hello</span>
+<p>active: {{active}}</p>
+
+<h3>NgStyle</h3>
+<button (click)="setCurrentStyles()">Toogle active</button><br/>
+<span [ngStyle]=" {'color': styleActive ? 'red' : 'inherit'}">Hello</span>
+<p>active: {{styleActive}}</p>
+
