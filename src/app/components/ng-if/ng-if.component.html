@@ -1,0 +1,11 @@
+
+<div>
+    <h3>NgIf</h3>
+    <ul>
+        <ng-container *ngFor="let letter of letters">
+            <li *ngIf="letter == 'B'">
+                {{letter}}
+            </li>
+        </ng-container>
+    </ul>
+</div>

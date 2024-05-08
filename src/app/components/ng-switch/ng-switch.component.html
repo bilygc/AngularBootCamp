@@ -1,0 +1,16 @@
+<div>
+    <h3>NgSwitch</h3>
+    <ul>
+        <ng-container *ngFor="let letter of letters" [ngSwitch]="letter">
+            <li *ngSwitchCase="'A'">
+                1
+            </li>
+            <li *ngSwitchCase="'B'">
+                2
+            </li>
+            <li *ngSwitchCase="'C'">
+                3
+            </li>
+        </ng-container>
+    </ul>
+</div>
