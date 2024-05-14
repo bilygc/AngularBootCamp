@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'AngularBootCamp';
+  public title = 'AngularBootCamp';
+  public cantidad: number = 34.22;
+  public cadena: string = 'hello world';
 }
