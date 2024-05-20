@@ -1,0 +1,8 @@
+<p>component-b works!</p>
+<mat-form-field>
+    <mat-label>Enter a route</mat-label>
+    <input matInput [(ngModel)]="route">
+  </mat-form-field>
+<button mat-raised-button [routerLink]="[route]">Go!</button>
+<br/>
+<router-outlet></router-outlet>
